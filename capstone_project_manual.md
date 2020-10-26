@@ -1,6 +1,6 @@
 ## Capstone project description in [QUBES](https://qubeshub.org/community/groups/cyverse_fmn/collections/all)
 
-The capstone project is a chance for you to apply the skills we have presented in the Fall 2020 FOSS Online course. The capstone outline below proposes some activities which we think will test your skills. We are open to your suggestions and ultimately, your team can present whatever you feel comfortable - remember, we are not expecting mastery. Instead, we want you to leave the course with some clear ideas of what skills you want to learn more about to apply FOSS in your own work.  
+The capstone project is a chance for you to apply the skills we have presented in the Fall 2020 FOSS Online course. The capstone outline below proposes some activities which we think will test your skills. We are open to your suggestions and ultimately, your team can present whatever you feel comfortable - remember, we are not expecting mastery. Instead, **we want you to leave the course with some clear ideas of what skills you want to learn more about to apply FOSS in your own work.**  
 
 ## Milestones and Due Dates  
 
