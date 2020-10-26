@@ -29,7 +29,7 @@ Ideally, your project should include a variety of components that each member of
 
 Here are some ideas of what to build for your project. Keep in mind, your project can include (and may even require) some skills we have not directly covered in class. We can provide assistance here during Office Hours, or you may want to spend time learning and working as a team to get those components done.  
 
-Tool/Development Project  (These could be done separately or together)  
+#### Tool/Development Project  (These could be done separately or together)  
 
     Take some software tools that you use now and make them into a Docker container
 
@@ -41,10 +41,12 @@ Tool/Development Project  (These could be done separately or together)
 
     Build a GitHub page to document your tool
 
-Collaboration and Documentation  (These could be done separately or together) 
+#### Collaboration and Documentation  (These could be done separately or together) 
 
     Take a software tool of your choice and build a GitHub webpage to better document that software or present a tutorial 
 
     Use a GitHub page to build a Code of Conduct or a Data Management Plan for your laboratory 
 
     Visit the GitHub page of a software project you currently use and make a contribution to their documentation or code 
+    
+<span style="color:blue">some *blue* text</span>
