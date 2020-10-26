@@ -18,7 +18,7 @@ Here are some guidelines on what your capstone project should minimally contain.
 
 Presentation component: 
 - One spokesperson for the team should present 5-7 slides.  
-  We will provide a space in QUBES to deposit these. Of those slides, we request the following: 
+  We will provide a space in QUBES to deposit these. Of those slides, we request the following:  
   a.) Be sure to indicate team members.  
   b.) Have a flowchart detailing the technologies your team has used (e.g. Docker, Git/GitHub, CyVerse, etc.).  
   c.) Have a “Lessons Learned” slide, with a summary from the team and what you hope to do next.  
