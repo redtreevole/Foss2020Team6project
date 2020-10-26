@@ -1,8 +1,10 @@
-# Foss2020Team6project
+# Foss2020 Team6 project
 
 ## Team-6 members
-- Daniele Fillault
-- Kyongho Son
-- JaeJin Choi
-- Tim Bailey
+- Daniele Fillault (filiaultd@gmail.com)
+- Kyongho Son (kkyong77@hotmail.com)
+- JaeJin Choi (jaejinchoi@berkeley.edu)
+- Tim Bailey (tim@caflc.dev)
 
+## Presentation make, google slide, public link
+https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNBYLU/edit?usp=sharing
