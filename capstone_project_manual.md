@@ -1,3 +1,5 @@
+## Capstone project description in [QUBES](https://qubeshub.org/community/groups/cyverse_fmn/collections/all)
+
 The capstone project is a chance for you to apply the skills we have presented in the Fall 2020 FOSS Online course. The capstone outline below proposes some activities which we think will test your skills. We are open to your suggestions and ultimately, your team can present whatever you feel comfortable - remember, we are not expecting mastery. Instead, we want you to leave the course with some clear ideas of what skills you want to learn more about to apply FOSS in your own work.  
 
 ## Milestones and Due Dates  
@@ -48,6 +50,4 @@ Here are some ideas of what to build for your project. Keep in mind, your projec
     Use a GitHub page to build a Code of Conduct or a Data Management Plan for your laboratory 
 
     Visit the GitHub page of a software project you currently use and make a contribution to their documentation or code 
-    
-<span style="color:blue"> some *blue* text </span>
-<span color="red">some **This is Red Bold.** text</span>
+
