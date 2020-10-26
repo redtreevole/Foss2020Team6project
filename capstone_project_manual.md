@@ -50,4 +50,4 @@ Here are some ideas of what to build for your project. Keep in mind, your projec
     Visit the GitHub page of a software project you currently use and make a contribution to their documentation or code 
     
 <span style="color:blue"> some *blue* text </span>
-<span style="color:red">some **This is Red Bold.** text</span>
+<span color="red">some **This is Red Bold.** text</span>
