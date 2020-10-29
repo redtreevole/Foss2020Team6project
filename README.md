@@ -10,6 +10,7 @@
 https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNBYLU/edit?usp=sharing
 
 https://docs.google.com/presentation/d/1p5AGmzwzzj9JbWax9uXEmHwBh4ogoTlzbONPipOUfw4/edit?usp=sharing
+Cyverse template
 
 ## Common communications skills
 -  group slack channel (team6)
@@ -21,3 +22,8 @@ https://docs.google.com/presentation/d/1p5AGmzwzzj9JbWax9uXEmHwBh4ogoTlzbONPipOU
 ### limix.GWAS  
 Group member: Daniele  
 Goal: run genome-wide association study in a Docker image on an atmosphere instance
+
+
+### LidR
+Group member: Tim 
+Goal: run LidR R package to develop forest canopy metrics
