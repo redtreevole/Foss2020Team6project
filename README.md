@@ -16,8 +16,6 @@ https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNB
 
 ## Individual subprojects
 
-### limix.GWAS
-
-Group member: Daniele
-
+### limix.GWAS  
+Group member: Daniele  
 Goal: run genome-wide association study in a Docker image on an atmosphere image
