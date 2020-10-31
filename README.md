@@ -27,3 +27,8 @@ Goal: run genome-wide association study in a Docker image on an atmosphere insta
 ### LidR
 Group member: Tim 
 Goal: run LidR R package to develop forest canopy metrics
+
+
+### Practive Cyverse tutorials / Visualization tool for FFP project
+Group member: JaeJin
+Goal: study Cyverse environment, version control, and snakemake. 
