@@ -7,7 +7,7 @@
 - Tim Bailey (tim@caflc.dev)
 
 ## Presentation make, google slide, public link
-https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNBYLU/edit?usp=sharing
+https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNBYLU/edit?usp=sharing basic template
 
 https://docs.google.com/presentation/d/1p5AGmzwzzj9JbWax9uXEmHwBh4ogoTlzbONPipOUfw4/edit?usp=sharing
 Cyverse template
