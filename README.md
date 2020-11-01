@@ -12,16 +12,16 @@ https://docs.google.com/presentation/d/1e28TU8VvAZR0V1xp9kKGPlZ4lCu39rY-F7edQuNB
 https://docs.google.com/presentation/d/1p5AGmzwzzj9JbWax9uXEmHwBh4ogoTlzbONPipOUfw4/edit?usp=sharing
 Cyverse template
 
-## Common communications skills
+## Common communications skills for collaboration
 -  group slack channel (team6)
 -  [group github with readme](https://github.com/redtreevole/Foss2020Team6project)
-
+-  group zoom meetings
 
 ## Individual subprojects
 
 ### limix.GWAS  
 Group member: Daniele  
-Goal: run genome-wide association study in a Docker image on an atmosphere instance
+Goal: run genome-wide association study with limix (python) using snakemake workflow on an atmosphere instance
 
 
 ### LidR

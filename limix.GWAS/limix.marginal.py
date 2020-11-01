@@ -5,7 +5,6 @@
 # Script to run marginal GWAS in limix with field experiment SNPs 
 # DLF 11 June 20
 # reworked from ipynb to .py script 01Sept20
-# reworked 01Nov20 to work in a docker container
 
 #########################
 ### 0. Set up environment
@@ -18,7 +17,7 @@ from bisect import bisect
 from limix import plot
 import random
 from sklearn.decomposition import PCA
-#import argparse
+import argparse
 import os
 from statsmodels.stats import multitest
 import math
@@ -27,12 +26,12 @@ import limix
 
 ##############################
 ### 1. parse arguments
-#parser = argparse.ArgumentParser(description = 'Parse parameters for marginal GWAS')
-#parser.add_argument('-pf', '--phenfile', help = 'Path to phenotype file. TXT file with accessions in same order as genotypes, phenotype values given in columns with appropriate column headers. Filename is used as phenotype name.', required = True)
-#parser.add_argument('-gf', '--genfile', help = 'Path to genotype file in bed format', required = True)
-#parser.add_argument('-kf', '--kfile', help = 'Path to K matrix file', required=True)
-#parser.add_argument('-pn', '--phenname', help = 'Specify the column name of the phenotype in the phenotype file', required = True)
-#args = parser.parse_args()
+parser = argparse.ArgumentParser(description = 'Parse parameters for marginal GWAS')
+parser.add_argument('-pf', '--phenfile', help = 'Path to phenotype file. TXT file with accessions in same order as genotypes, phenotype values given in columns with appropriate column headers. Filename is used as phenotype name.', required = True)
+parser.add_argument('-gf', '--genfile', help = 'Path to genotype file in bed format', required = True)
+parser.add_argument('-kf', '--kfile', help = 'Path to K matrix file', required=True)
+parser.add_argument('-pn', '--phenname', help = 'Specify the column name of the phenotype in the phenotype file', required = True)
+args = parser.parse_args()
 
 
 ##############################
@@ -43,23 +42,23 @@ import limix
 ### So check this beforehand (or at least check the log file to make sure condition is met)
 
 # phenotype
-#pheno_file = args.phenfile
-pheno_file = '/data/slopeNS.blups.txt'
+pheno_file = args.phenfile
+#pheno_file = '/groups/nordborg/projects/field_experiments/adaptation_sweden/common.gardens/data/slopeNS.blups.txt'
 
 # genotype
-#geno_file = args.genfile
-geno_file = '/data/02_2.3M_200Swedes.biallelic.imputed.filtered.bed'
+geno_file = args.genfile
+#geno_file = '/groups/nordborg/projects/field_experiments/001.common.reference.files/006.field.SNPs.Fernando/imputed/02_2.3M_200Swedes.biallelic.imputed.filtered.bed'
 
 # kinship matrix
-#kin_file = args.kfile
-kin_file = '/data/K.matrix.200Swedes.labels.txt'
+kin_file = args.kfile
+#kin_file = '/groups/nordborg/projects/field_experiments/adaptation_sweden/common.gardens/data/K.matrix.200Swedes.labels.txt'
 # minor allele frequency threshold, not set in this script.  This was set when generating the input bim file
 #MAF_thrs = 0.1 
 
 # pheno name and output results
-pheno_name = "mu2.sl"
-#pheno_name = args.phenname
-output_file = '/data/limix_out/' + pheno_name +'.limix.results.csv'
+#pheno_name = "mu2.sl"
+pheno_name = args.phenname
+output_file = '003.results/' + pheno_name +'.limix.results.csv'
 # setting limix file as default output location.  Change to add this as a proper argument if needed/desired
 
 

@@ -1,1 +1,4 @@
 limix.GWAS/001.data/
+limix.GWAS/999.tutorial.files
+limix.GWAS/003.results
+limix.GWAS/.snakemake
