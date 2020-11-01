@@ -28,6 +28,9 @@ Goal: run genome-wide association study with limix (python) using snakemake work
 Group member: Tim 
 Goal: run LidR R package to develop forest canopy metrics
 
+### using modis data to detect the forest fire impacts
+Group memmber: Kyongho
+Goal: create R script to download and analyze the modis products to detect the impact of forest fires on vegetation growth/productivity at the watershed scale. 
 
 ### Practive Cyverse tutorials / Visualization tool for FFP project  
 Group member: JaeJin  
