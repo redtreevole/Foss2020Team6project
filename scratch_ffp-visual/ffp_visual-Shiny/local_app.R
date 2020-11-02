@@ -1,7 +1,6 @@
 # Script Author: JaeJin Choi, OCT-2020
 # Description: Shiny app that visualize FFP distance matrices to determine optimal point(s)
 
-
 require(shiny)
 
 # required for actual work
@@ -25,42 +24,16 @@ ui <- fluidPage(
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
         sidebarPanel(
-            # sliderInput(inputId = "box_ratio",
-            #             label = "Threshold for choosing boxes (bag1 versus bag2)",
-            #             min = 0,
-            #             max = 1,
-            #             value = 0.5
-            #             ),
-            # 
-            # sliderInput(inputId = "n_repeats",
-            #             label = "Simulation repeats",
-            #             min = 5,
-            #             max = 1000,
-            #             value = 100
-            #             ),
-            # 
-            # numericInput(inputId = "rnd_seed", 
-            #              label = "Random seed",
-            #              value = 123,
-            #              step = 1
-            #              ),
-            # 
-            # radioButtons(inputId = "ball_color"
-            #              , label = ("Choose ball color")
-            #              , choices = list("Red" = "red", "Blue" = "blue", "white" = "white")
-            #              , selected = "blue" # select value (not the label)
-            #              ),
 
             selectInput("select_project", label = ("Select project"), 
                         choices = list("Select project title"="none"
                                        , "NCBI CoV 66 virus sample" = "1"
                                        , "Shakespear" = "/home/jjc/Desktop/project-work/shakespeare_project/FFP_alphanumeric-play/bionj"
-                                       , "Tree of Life" = "2"
-                                       , "test matrices" = "/DATA/workspace/berkeley_schedule/semester_progress/fall_2020/stat_130/project/01_optimal_range_plot/matrix"), #path = title
-                        #selected = "none"
-                        selected = "/DATA/workspace/berkeley_schedule/semester_progress/fall_2020/stat_130/project/01_optimal_range_plot/matrix"
-                        #selected = "/home/jjc/Desktop/project-work/shakespeare_project/FFP_alphanumeric-play/bionj"
-                        ),
+                                       #, "Tree of Life" = "2"
+                        )
+                        , selected = "none"
+                        #selected = "/DATA/workspace/berkeley_schedule/semester_progress/fall_2020/stat_130/project/01_optimal_range_plot/matrix"
+            ),
             
             fluidRow(column(3, paste0("Project data path", "\n"), verbatimTextOutput("select_project"))),
             
@@ -152,7 +125,6 @@ server <- function(input, output, session) {
             # lmer_from <- which(pm_df$feature_length == input$lmer_range[1], arr.ind=TRUE)
             # lmer_to <- which(pm_df$feature_length == input$lmer_range[2], arr.ind=TRUE)
  
-            
 
             #print(pm_df[lmer_from:lmer_to, ])
             
