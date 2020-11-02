@@ -4,3 +4,9 @@
 # https://www.r-bloggers.com/2020/03/installing-spatial-r-packages-on-ubuntu/
 # using this page to set up a conda environment for the R
 # https://docs.anaconda.com/anaconda/user-guide/tasks/using-r-language/
+
+
+# starting  jupyter lab
+
+/opt/conda/bin/jupyter lab --no-browser --allow-root --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --notebook-dir='/scratch/Foss2020Team6project/'
+128.196.142.11::8888
