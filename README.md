@@ -36,7 +36,7 @@ Group memmber: Kyongho
 Goal: create R script with JupyterLab to download and analyze the modis products to detect the impact of forest fires 
 on vegetation growth/productivity at the watershed scale. 
 
-### Practive Cyverse tutorials / Visualization tool for FFP project  
+### Practice Cyverse tutorials / Develop visualization tool for FFP project  
 Group member: JaeJin  
 
-Goal: study Cyverse environment, version control, and snakemake. 
+Goal: study Cyverse environment, and develop visualization tool for FFP project
