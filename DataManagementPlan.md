@@ -5,10 +5,10 @@
 
 Several of these will be Jupyter Notebook files and associated metadata.  
 
-May include,
-- Shiny app.R and the sourcing R script to rendered as a webapp.
-
-  
+Individual project may include,
+- scripts (R, python, etc) to execute or render
+- actual data/metadata used in analysis
+- example data/metadata to verify an execution of programs/scripts
   
 ## II  Data and Metadata Standards
 
@@ -24,6 +24,6 @@ It is unlikely that there will be significant interest in the product of this pr
 
 ##  V  Plans For Archiving and Preservation of Access
 
-The Team 6 Foss project is of limited scope and is for solely educational purposes.  The repository will be retained for 30 days from the close of the Foss 2020 workshop.  No provisions for long term data maintenance are being made.  The individual authors are likely to preserve work independently.  
+The Team 6 Foss project is of limited scope and is for solely educational purposes.  **The repository will be retained for 30 days from the close of the Foss 2020 workshop.**  No provisions for long term data maintenance are being made.  The individual authors are likely to preserve work independently.  
 
 
