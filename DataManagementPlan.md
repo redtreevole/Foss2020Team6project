@@ -3,7 +3,7 @@
 
 ## I  Types of Data
 
-Several of these will be Jupyter Notebook files and associated metadata. 
+Several of these will be Jupyter Notebook files and associated metadata.  
 
 May include,
 - Shiny app.R and the sourcing R script to rendered as a webapp.

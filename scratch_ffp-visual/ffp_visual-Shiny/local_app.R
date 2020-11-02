@@ -25,12 +25,16 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
 
-            #pull data from local storage (or from Cyverse Scratch?)
+            # pull data locally (or from Cyverse Scratch?)
+            # can be modified to pull data remotely (url address)
             selectInput("select_project", label = ("Select project"), 
                         choices = list("Select project title"="none"
-                                       #    , "NCBI CoV 66 virus sample" = "1"
-                                       , "Shakespear" = "/home/jjc/Desktop/project-work/shakespeare_project/FFP_alphanumeric-play/bionj"
-                                       #, "Tree of Life" = "2"
+                                       , "project path_1" = "absolute_folder_path_to_project_1"
+                                       , "project path_2" = "absolute_folder_path_to_project_2"
+                                       , "project path_3" = "absolute_folder_path_to_project_3"
+                                       
+                                       , "Shakespear" = "/home/jjc/Desktop/project-work/shakespeare_project/FFP_alphanumeric-play/bionj" #local
+                                       
                         )
                         , selected = "none" #initial selection none
             ),
