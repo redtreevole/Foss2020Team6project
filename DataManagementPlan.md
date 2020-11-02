@@ -5,11 +5,14 @@
 
 Several of these will be Jupyter Notebook files and associated metadata. 
 
+May include,
+- Shiny app.R and the sourcing R script to rendered as a webapp.
+
 
 
 ## II  Data and Metadata Standards
 
-
+Data and Metadata used in individual projects can be stored locally or provided remotely upon requests.
 
 ## III  Policies for Access and Sharing and Provisions for Appropriate Protection/Privacy
 

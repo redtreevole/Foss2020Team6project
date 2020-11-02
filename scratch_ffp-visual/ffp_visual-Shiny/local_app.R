@@ -1,6 +1,6 @@
 # Script Author: JaeJin Choi, OCT-2020
 # Description: Shiny app that visualize FFP distance matrices to determine optimal point(s)
-
+    
 require(shiny)
 
 # required for actual work
@@ -25,14 +25,14 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
 
+            #pull data from local storage (or from Cyverse Scratch?)
             selectInput("select_project", label = ("Select project"), 
                         choices = list("Select project title"="none"
-                                       , "NCBI CoV 66 virus sample" = "1"
+                                       #    , "NCBI CoV 66 virus sample" = "1"
                                        , "Shakespear" = "/home/jjc/Desktop/project-work/shakespeare_project/FFP_alphanumeric-play/bionj"
                                        #, "Tree of Life" = "2"
                         )
-                        , selected = "none"
-                        #selected = "/DATA/workspace/berkeley_schedule/semester_progress/fall_2020/stat_130/project/01_optimal_range_plot/matrix"
+                        , selected = "none" #initial selection none
             ),
             
             fluidRow(column(3, paste0("Project data path", "\n"), verbatimTextOutput("select_project"))),
