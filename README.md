@@ -23,12 +23,6 @@ Group member: Daniele
 
 Goal: run genome-wide association study with limix (python) using snakemake workflow on an atmosphere instance
 
-
-### LidR
-Group member: Tim 
-
-Goal: run LidR R package to develop forest canopy metrics
-
 ### using modis data to detect the forest fire impacts
 Group memmber: Kyongho
 
@@ -39,3 +33,8 @@ on vegetation growth/productivity at the watershed scale.
 Group member: JaeJin  
 
 Goal: study Cyverse environment, and develop visualization tool for FFP project
+
+### Data Management Plan and Code of Conduct
+Group member: Tim 
+
+
