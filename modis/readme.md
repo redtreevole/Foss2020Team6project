@@ -8,3 +8,4 @@
 ### starting  jupyter lab
 - jupyter lab --no-browser --allow-root --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --notebook-dir='/scratch/Foss2020Team6project/'
 - 128.196.142.11:8888
+- use "downloadmodis.ipynb" 
