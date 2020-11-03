@@ -5,7 +5,7 @@
 - install R packages is always difficulty, especially for sf R package in the ubutuo environment  
   this page contains useful information of how to install R spatial packages: https://www.r-bloggers.com/2020/03/installing-spatial-r-packages-on-ubuntu/
 
-### starting  jupyter lab
+### use jupyter lab to download modis LAI maps and clip the LAI based on the watershed boundary map (American River watershed), and create the time series of LAI (4 days) per subbasin level. 
 - jupyter lab --no-browser --allow-root --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --notebook-dir='/scratch/Foss2020Team6project/'
 - 128.196.142.11:8888
 - use "downloadmodis.ipynb" 
