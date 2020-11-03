@@ -23,7 +23,7 @@ Group member: Daniele
 
 Goal: run genome-wide association study with limix (python) using snakemake workflow on an atmosphere instance
 
-### using modis data to detect the forest fire impacts
+### using MODIS data to detect the forest fire impacts
 Group memmber: Kyongho
 
 Goal: create R script with JupyterLab to download and analyze the modis products to detect the impact of forest fires 
