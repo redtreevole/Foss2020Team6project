@@ -34,7 +34,9 @@ Group member: JaeJin
 
 Goal: study Cyverse environment, and develop visualization tool for FFP project
 
-### Data Management Plan and Code of Conduct
+### Collaboration Framework Documents
 Group member: Tim 
+
+Goal:  Develop Data Management Plan, License, and Code of Conduct
 
 
