@@ -20,7 +20,7 @@ The data products from this are not expected to have any
 
 ##  IV Policies and Provisions for re-use, re-distribution
 
-It is unlikely that there will be significant interest in the product of this project outside of the authors. 
+The products available under the terms of the MIT license  
 
 ##  V  Plans For Archiving and Preservation of Access
 
