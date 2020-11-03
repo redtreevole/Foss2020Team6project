@@ -1,4 +1,4 @@
-# Simplified Code of Conduct 
+# Code of Conduct 
 
    ### Use welcoming and inclusive language
    ### Be respectful of different viewpoints and experiences
